@@ -8,7 +8,7 @@ import re
 app = Flask(__name__)
 
 # Ensure correct file path
-file_path = "/home/anjali-agarwal/Downloads/flask_dashboard/logfile.txt"
+file_path = "logfile.txt"
 
 def process_log():
     """ Extracts and processes log data from the logfile """
